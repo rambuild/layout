@@ -1,0 +1,12 @@
+$(function(){
+	$('.right_cur>ul>li:nth-child(1),.right_cur>ul>li:nth-child(4)').hover(function(){
+		$(this).find('.my_taobao').show()
+	},function(){
+		$(this).find('.my_taobao').hide()
+	})
+	$('.right_cur>ul>li:last-child').hover(function(){
+		$('.sup_hover').show()
+	},function(){
+		$('.sup_hover').hide()
+	})
+})
